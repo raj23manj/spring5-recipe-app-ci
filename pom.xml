@@ -116,6 +116,7 @@
                 <version>2.22.0</version>
                 <configuration><!-- https://issues.apache.org/jira/browse/SUREFIRE-1424 -->
                     <argLine>--add-modules java.base</argLine>
+                    <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
         </plugins>
